@@ -7,7 +7,7 @@ const HOST = '0.0.0.0'
 
 const app = express()
 app.get('/', (req, res) => {
-    res.write('Sumakmur 51017028 Sistem Informasi')
+    res.write('Sumakmur 51017028 Sistem Informasi123')
     res.end()
 })
 

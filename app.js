@@ -3,7 +3,7 @@
 const express = require('express')
 
 const PORT = 8000
-const HOST = '35.194.216.248'
+const HOST = '0.0.0.0'
 
 const app = express()
 app.get('/', (req, res) => {

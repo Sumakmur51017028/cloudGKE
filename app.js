@@ -12,4 +12,4 @@ app.get('/', (req, res) => {
 })
 
 app.listen(PORT, HOST)
-console.log(`Running on http://${0.0.0.0}:${8000}`)
+console.log(`Running on http://${HOST}:${PORT}`)
